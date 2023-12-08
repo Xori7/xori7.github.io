@@ -1,6 +1,6 @@
 :root {
     --color-bg: #0f0f1a;
-    --color-sbg: #0c0b0b;
+    --color-sbg: #0e0d0d;
     --color-st: #a0a0a0;
     --color-t: #c0c0c0;
 }
@@ -51,4 +51,12 @@ h4 {
 
 .project-date {
     color: #eeeeee;
+}
+
+.note {
+    background-color: #100020;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: #6600be;
+    outline-width: 1px;
 }
