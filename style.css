@@ -1,13 +1,13 @@
 :root {
-    --color-bg: #09090f;
-    --color-sbg: #010101;
+    --color-bg: #0f0f1a;
+    --color-sbg: #0c0b0b;
     --color-st: #a0a0a0;
     --color-t: #c0c0c0;
 }
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,3 +39,16 @@ body {
     margin-bottom: 40px;
 }
 
+a {
+  text-decoration: none;
+  color: #22cccc; 
+}
+
+h4 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.project-date {
+    color: #eeeeee;
+}
