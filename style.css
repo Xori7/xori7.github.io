@@ -55,8 +55,8 @@ h4 {
 
 .note {
     background-color: #100020;
-    margin: 5px;
-    padding: 10px;
+    margin: 0.5em;
+    padding: 0.5em;
     outline-style: solid;
     outline-color: #6600be;
     outline-width: 1px;
@@ -64,8 +64,8 @@ h4 {
 
 .quote {
     background-color: #102000;
-    margin: 5px;
-    padding: 10px;
+    margin: 0.5em;
+    padding: 0.5em;
     outline-style: solid;
     outline-color: #66be00;
     outline-width: 1px;
