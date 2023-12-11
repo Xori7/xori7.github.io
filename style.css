@@ -14,6 +14,7 @@ body {
     justify-content: vertical;
     background: var(--color-bg);
     color: var(--color-t);
+    font-size: clamp(12px, 2vw, 20px);
 }
 
 .content-container {
@@ -70,3 +71,4 @@ h4 {
     outline-color: #66be00;
     outline-width: 1px;
 }
+
