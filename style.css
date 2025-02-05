@@ -1,8 +1,7 @@
 :root {
-    --color-bg: #000000;
-    --color-sbg: #090909;
-    --color-st: #a0a0a0;
-    --color-t: #c0c0c0;
+    --color-bg: #111111;
+    --color-sbg: #000000;
+    --color-t: #d0d0d0;
 }
 
 body {
@@ -31,44 +30,8 @@ body {
     text-align: left;
 }
 
-.hidden-text {
-    color: #010101
-}
-
-.avatar-img {
-    max-width: 64px;
-    height: 64px;
-}
-
 a {
   text-decoration: none;
   color: #11aaaa; 
-}
-
-h4 {
-    margin-bottom: 5px;
-    margin-top: 25px;
-}
-
-.project-date {
-    color: #eeeeee;
-}
-
-.note {
-    background-color: #100020;
-    margin: 0.5em;
-    padding: 0.5em;
-    outline-style: solid;
-    outline-color: #6600be;
-    outline-width: 1px;
-}
-
-.quote {
-    background-color: #102000;
-    margin: 0.5em;
-    padding: 0.5em;
-    outline-style: solid;
-    outline-color: #66be00;
-    outline-width: 1px;
 }
 
