@@ -24,51 +24,16 @@ body {
     max-width: 1024px; 
     width: 100%;
     min-height: 100vh;
-    margin: 40px;
+    margin: 40px; 
+    overflow-wrap: break-word;
 }
 
 .title-text {
     text-align: left;
 }
 
-.hidden-text {
-    color: #010101
-}
-
-.avatar-img {
-    max-width: 64px;
-    height: 64px;
-}
-
 a {
   text-decoration: none;
   color: #11aaaa; 
-}
-
-h4 {
-    margin-bottom: 5px;
-    margin-top: 25px;
-}
-
-.project-date {
-    color: #eeeeee;
-}
-
-.note {
-    background-color: #100020;
-    margin: 0.5em;
-    padding: 0.5em;
-    outline-style: solid;
-    outline-color: #6600be;
-    outline-width: 1px;
-}
-
-.quote {
-    background-color: #102000;
-    margin: 0.5em;
-    padding: 0.5em;
-    outline-style: solid;
-    outline-color: #66be00;
-    outline-width: 1px;
 }
 
