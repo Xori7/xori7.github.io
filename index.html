@@ -4,45 +4,61 @@
     <meta charset="UTF-16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="include/prism.css">
     <title>xori</title>
-
 </head>
 <body>
-<div class="content-container">
-<pre>
-hi, i'm piotr szulakowski (xori)
 
-find me:
-    - <a href="https://github.com/Xori7">github</a>
-    - <a href="https://x.com/__Xori__">x</a>
-    - <a href="https://www.youtube.com/@piotrszulakowski">youtube</a>
-    - <a href="https://matrix.to/#/@xori7:matrix.aorg">matrix</a>
+<div class="markdown-content" id="markdown-output"></div>
 
-blog:
-    <a href="blog/000.html">000| zero finished projects</a>
+<script src="include/marked.js"></script>
+<script src="include/prism.js"></script>
+<script>
+    marked.setOptions({
+        highlight: function(code, lang) {
+            if (lang && Prism.languages[lang]) {
+                return Prism.highlight(code, Prism.languages[lang], lang);
+            }
+            return code;
+        }
+    });
 
-work:
-    [08/2025..current] advanced software engineer at <a href="https://www.relativity.com">r(el)ativity</a>
-    [07/2021..current] unity developer at <a href="https://pyramid.games">pyramid.games</a>
-        i've worked on:
-        <a href="https://dinosaurfossil.pyramid.games/">dinosaurfossil.pyramid.games</a>
-            - gamepad support
-            - xbox console port
-            - memory/gpu/cpu optimization
-        <a href="https://occupymarsgame.com/">occupymarsgame.com</a>
-            - gamepad support
-            - networking
-        <a href="project_segfault.html">�x�!�</a>
-            - procedural geometry
+    const output = document.getElementById('markdown-output');
+    output.innerHTML = marked.parse(`
+# Piotr \\xori\\ Szulakowski
+[x](https://x.com/__Xori__) - </div>
+[github](https://github.com/Xori7) - 
+[youtube](https://www.youtube.com/@piotrszulakowski) - 
+[matrix](https://matrix.to/#/@xori7:matrix.aorg) - 
+[twitch](https://www.twitch.tv/xori_dev) - 
+[discord](https://discord.gg/f6y7DPrW)  
 
-personal projects:
-    yeah, surely there will be something soon
+---
+## Projects
+Age of Generals
 
-interesting stuff:
-    - <a href="https://www.rfleury.com/p/the-easiest-way-to-handle-errors">www.rfleury.com/p/the-easiest-way-to-handle-errors</a>
-    - <a href="https://www.youtube.com/watch?v=wo84LFzx5nI&ab_channel=BetterSoftwareConference">www.youtube.com/watch?v=wo84LFzx5nI&ab_channel=BetterSoftwareConference</a>
+---
+## Blog
+[001 | Bitflags are awesome](blog/001.html)  
+[000 | Zero finished projects](blog/000.html) 
 
-</pre>
-</div>
+---
+## Work
+- **[08/2025..current] [Relativity](https://www.relativity.com) | advanced software engineer**
+    - c# backend and stuff
+
+- **[07/2021..current] [Pyramid Games](https://pyramid.games) | unity c# programmer**
+    - [Dinosaur Fossil Hunter](https://dinosaurfossil.pyramid.games/)
+    - [Occupy Mars: The Game](https://occupymarsgame.com/)
+    - [�x�!�<](project_segfault.html)
+
+---
+## Interesting talks/posts
+- <https://www.rfleury.com/p/the-easiest-way-to-handle-errors>
+- <https://www.youtube.com/watch?v=wo84LFzx5nI&ab_channel=BetterSoftwareConference>
+
+    `);
+</script>
+
 </body>
 </html>
