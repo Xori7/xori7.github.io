@@ -1,0 +1,64 @@
+site_name: Xori - Piotr Szulakowski
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter  # Clean, modern (like X uses system fonts)
+    code: Roboto Mono
+  palette:
+    - scheme: slate  # Dark base
+      primary: custom
+      accent: cyan  # Minimal accents, or remove for pure white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - toc.integrate  # This moves TOC into left sidebar (single sidebar feel)
+    - search
+    # No separate right sidebar bloat
+
+  logo: avatar.png
+  favicon: avatar.png
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.emoji:                  # (your existing emoji block)
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:              # ← Add this for colored syntax highlighting
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+
+  - 🚀 Projects:          # Bold section header with emoji
+    - Cool App: projects/cool-app.md
+    - Another Tool: projects/tool.md
+
+  - 📝 Blog:               # Another distinct section
+    - First Post: blog/post1.md
+    - Thoughts: blog/thoughts.md
+
+  - ℹ️ About: about.md
+  - Links: links.md
