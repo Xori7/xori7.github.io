@@ -22,11 +22,14 @@
   padding: 0 2rem;
 }
 
-/* Optional: Make headings a touch smaller too for balance */
-/*.md-typeset h1 { font-size: 2.2rem; }
-.md-typeset h2 { font-size: 1.7rem; }
-.md-typeset h3 { font-size: 1.4rem; }
-.md-typeset h4 { font-size: 1.2rem; }*/
+/* Tighten spacing between titles and content */
+.md-typeset h1, 
+.md-typeset h2, 
+.md-typeset h3, 
+.md-typeset h4 {
+  margin-top: 1rem;    /* Reduced from default (~2rem) */
+  margin-bottom: 0.5rem; /* Space between title and text below it */
+}
 
 /* Code blocks – keep them readable but not oversized */
 .md-typeset code {
@@ -67,7 +70,7 @@
 
 /* Breathing room */
 .md-main__inner {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 /* Bolder, larger section headers in sidebar */
