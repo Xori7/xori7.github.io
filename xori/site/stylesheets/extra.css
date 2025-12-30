@@ -1,0 +1,105 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');*/
+
+/* True black background, white text – X-like */
+:root {
+  --md-primary-fg-color:       #000000;
+  --md-primary-fg-color--dark: #000000;
+  --md-text-fg-color:          #ffffff;
+  --md-typeset-color:          #e0e0e0;  /* Body text slightly off-white */
+}
+
+/* Specific override for link color in dark mode */
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #1DA1F2;  /* Bright X/Twitter blue – stands out perfectly on black */
+}
+
+/* Centered, feed-like content – smaller, sharper text */
+.md-typeset {
+  font-size: 1.0rem;
+  line-height: 1.2;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Optional: Make headings a touch smaller too for balance */
+/*.md-typeset h1 { font-size: 2.2rem; }
+.md-typeset h2 { font-size: 1.7rem; }
+.md-typeset h3 { font-size: 1.4rem; }
+.md-typeset h4 { font-size: 1.2rem; }*/
+
+/* Code blocks – keep them readable but not oversized */
+.md-typeset code {
+  font-size: 0.9rem;
+}
+
+/* Blockquotes and admonitions – subtle size reduction */
+.md-typeset blockquote,
+.md-typeset .admonition {
+  font-size: 0.95rem;
+}
+
+/* Blurred header */
+.md-header {
+  backdrop-filter: blur(12px);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* X-style links: bright blue, subtle underline on hover */
+.md-typeset a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+.md-typeset a:hover {
+  color: #58b9ff;  /* Lighter blue hover */
+  border-bottom: 1px solid #58b9ff;
+}
+.md-typeset a:visited {
+  color: #8ecdf8;  /* Slightly faded for visited */
+}
+
+/* Thin sidebar */
+.md-sidebar {
+  width: 220px;
+}
+
+/* Breathing room */
+.md-main__inner {
+  margin-top: 3rem;
+}
+
+/* Bolder, larger section headers in sidebar */
+.md-nav--primary .md-nav__title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #ffffff !important;
+  letter-spacing: 0.5px;
+}
+
+/* Distinct page items – subtle hover and active state */
+.md-nav__item .md-nav__link {
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+.md-nav__item .md-nav__link:hover,
+.md-nav__item--active > .md-nav__link {
+  background-color: rgba(29, 161, 242, 0.15);  /* Subtle blue glow like X */
+  color: #1DA1F2 !important;
+}
+
+/* Larger emojis/icons in nav */
+.md-nav__item .twemoji {
+  width: 1.4em;
+  height: 1.4em;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+/* Optional: Thin separator lines between sections */
+.md-nav--primary > .md-nav > .md-nav__item > .md-nav__title ~ .md-nav__item {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}

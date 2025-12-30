@@ -1,64 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-16">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="include/prism.css">
-    <title>xori</title>
-</head>
-<body>
-
-<div class="markdown-content" id="markdown-output"></div>
-
-<script src="include/marked.js"></script>
-<script src="include/prism.js"></script>
-<script>
-    marked.setOptions({
-        highlight: function(code, lang) {
-            if (lang && Prism.languages[lang]) {
-                return Prism.highlight(code, Prism.languages[lang], lang);
-            }
-            return code;
-        }
-    });
-
-    const output = document.getElementById('markdown-output');
-    output.innerHTML = marked.parse(`
-# Piotr \\xori\\ Szulakowski
-[x](https://x.com/__Xori__) - </div>
-[github](https://github.com/Xori7) - 
-[youtube](https://www.youtube.com/@piotrszulakowski) - 
-[matrix](https://matrix.to/#/@xori7:matrix.aorg) - 
-[twitch](https://www.twitch.tv/xori_dev) - 
-[discord](https://discord.gg/f6y7DPrW)  
-
-Feel free to reach out: contact@xori.me
-
----
-## Blog
-[001 | Bitflags are awesome](blog/001.html)  
-[000 | Zero finished projects](blog/000.html) 
-
----
-## Professional work
-- **[08/2025..current] [Relativity](https://www.relativity.com) | advanced software engineer**
-    - c# backend and stuff
-
-- **[07/2021..current] [Pyramid Games](https://pyramid.games) | unity c# programmer**
-    - [Dinosaur Fossil Hunter](https://dinosaurfossil.pyramid.games/)
-    - [Occupy Mars: The Game](https://occupymarsgame.com/)
-    - [�x�!�<](project_segfault.html)
-
----
-## Interesting talks/posts
-- [Don't do errors post](https://www.rfleury.com/p/the-easiest-way-to-handle-errors)
-- [Casey Muratori - The Big OOPs](https://www.youtube.com/watch?v=wo84LFzx5nI&ab_channel=BetterSoftwareConference)
-- [treeeees](https://opengameart.org/content/tree-collection-v26-bleeds-game-art)
-- [gmshaders.com](https://gmshaders.com/)
-
-    `);
-</script>
-
-</body>
+<!doctype html>
+<html>
+  <head>
+    <META http-equiv="refresh" content="0;URL=./xori/site/index.html">
+  </head>
 </html>
