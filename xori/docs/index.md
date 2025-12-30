@@ -1,15 +1,18 @@
 Hi, I'm Xori!
 
+---
 ## What I do: 
 
 - [program computers](blog/programming.md)
 - [run](blog/running.md)
 - [read](blog/reading.md)
 
+---
 ## Projects
 - [age of generals](https://aog.xori.me)
 - [nandi](https://nandi.xori.me)
 
+---
 ## Work experience
 [08/2025 .. today] advanced software engineer @ [relativity](https://www.relativity.com)  
 
@@ -29,3 +32,5 @@ Hi, I'm Xori!
 [twitch](https://www.twitch.tv/xori_dev) -
 [discord](https://discord.gg/f6y7DPrW) -
 [contact@xori.me](contact@xori.me)
+
+---
