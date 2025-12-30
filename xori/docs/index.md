@@ -1,11 +1,5 @@
 Hi, I'm Xori!
 
-```
-Run 5km a day
-10/365
-
-```
-
 ## What I do: 
 
 - [program computers](blog/programming.md)
