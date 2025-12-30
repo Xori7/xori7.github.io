@@ -51,14 +51,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-
-  - 🚀 Projects:          # Bold section header with emoji
-    - Cool App: projects/cool-app.md
-    - Another Tool: projects/tool.md
-
-  - 📝 Blog:               # Another distinct section
-    - First Post: blog/post1.md
-    - Thoughts: blog/thoughts.md
-
-  - ℹ️ About: about.md
+  - Blog: 
+    - Running: blog/running/running.md
   - Links: links.md
