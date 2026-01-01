@@ -8,11 +8,6 @@
 - [read](blog/reading.md)
 
 ---
-## Projects
-- [age of generals](https://aog.xori.me)
-- [nandi](https://nandi.xori.me)
-
----
 ## Work experience
 [08/2025 .. today] advanced software engineer @ [relativity](https://www.relativity.com)  
 
