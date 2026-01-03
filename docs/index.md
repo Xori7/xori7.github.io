@@ -1,9 +1,12 @@
-# Hi, I'm Xori!
+# Home
+
+!!! example ""
+    *For me, a life without constant learning and change is not worth living*
 
 ---
-## What I do: 
+## What I do
 
-- [program computers](blog/programming.md)
+- [program](blog/programming.md)
 - [run](blog/running.md)
 - [read](blog/reading.md)
 
