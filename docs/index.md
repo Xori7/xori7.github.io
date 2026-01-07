@@ -1,14 +1,16 @@
 # Home
 
-!!! example ""
-    *For me, a life without constant learning and change is not worth living*
+---
+## Blog
+- [running](blog/running.md)
+- [books](blog/books.md)
 
 ---
-## What I do
-
-- [program](blog/programming.md)
-- [run](blog/running.md)
-- [read](blog/reading.md)
+## Stuff I kinda know
+- c
+- c#
+- unity engine
+- computer networks
 
 ---
 ## Work experience

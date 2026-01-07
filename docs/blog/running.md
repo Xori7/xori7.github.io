@@ -1,5 +1,5 @@
 ## Events
-- [03/22/2026] Warsaw - half maraton
+- [2026.03.22] Warsaw - half maraton
 
 ## My runs
 
