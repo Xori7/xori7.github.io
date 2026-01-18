@@ -6,14 +6,12 @@
 [/books](blog/books.md)  
 
 ---
-## What I can do
+## Things I think I'm good at
 
 \- c#  
 \- c  
-\- glsl  
 \- unity  
 \- computer networks  
-\- <del>i use vim btw</del>
 
 ---
 ## People
@@ -30,8 +28,9 @@
 [twitch](https://www.twitch.tv/xori_dev) -
 [discord](https://discord.gg/f6y7DPrW) -
 [contact@xori.me](contact@xori.me)
-</div>
 
 ---
 
+<del>i use vim btw</del>
+</div>
 #
