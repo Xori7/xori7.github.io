@@ -1,27 +1,16 @@
+![](me.jpeg){ align=right width=300 }
 # Home
-
----
-## Blog
+- [work](blog/work.md)
 - [running](blog/running.md)
 - [books](blog/books.md)
 
 ---
-## Stuff I kinda know
+## Stuff I know
+
 - c
 - c#
 - unity engine
 - computer networks
-
----
-## Work experience
-[08/2025 .. today] advanced software engineer @ [relativity](https://www.relativity.com)  
-
-- c# backend and stuff
-
-[07/2021 .. 12/2025] unity c# programmer @ [pyramid games](https://pyramid.games)  
-
-- [dinosaur fossil hunter](https://dinosaurfossil.pyramid.games/)
-- [occupy mars: the game](https://occupymarsgame.com/)
 
 ---
 ## Socials

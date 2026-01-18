@@ -106,3 +106,26 @@
   margin-top: 0.5rem;
   padding-top: 0.5rem;
 }
+
+/* Container to push workplace left and date right */
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  margin-top: 2em;
+  border-bottom: 1px solid #eeeeee; /* Optional: adds a subtle line */
+  padding-bottom: 5px;
+}
+
+/* Ensure the heading doesn't add extra bottom margin */
+.exp-header h3 {
+  margin: 0;
+}
+
+/* Style for the date */
+.exp-date {
+  font-style: italic;
+  color: var(--md-typeset-color);
+  opacity: 0.8;
+}
