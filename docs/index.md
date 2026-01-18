@@ -1,19 +1,28 @@
 ![](me.jpeg){ align=right width=300 }
-# Home
-- [work](blog/work.md)
-- [running](blog/running.md)
-- [books](blog/books.md)
+## Documentary
+
+[/work](blog/work.md)  
+[/running](blog/running.md)  
+[/books](blog/books.md)  
 
 ---
-## Stuff I know
+## What I can do
 
-- c
-- c#
-- unity engine
-- computer networks
+\- c#  
+\- c  
+\- glsl  
+\- unity  
+\- computer networks  
+\- <del>i use vim btw</del>
 
 ---
-## Socials
+## People
+\- [kkard2.com](https://kkard2.com/) *// just let him sleep*   
+\- [paluchp.com](https://paluchp.com/)  *// gateway router for making connections with people*  
+\- [nitrosubs.live](https://nitrosubs.live) *// truly unique experience by `fililip`*  
+
+---
+<div style="text-align: center;"markdown>
 [x](https://x.com/__Xori__) -
 [github](https://github.com/Xori7) -
 [youtube](https://www.youtube.com/@piotrszulakowski) -
@@ -21,5 +30,8 @@
 [twitch](https://www.twitch.tv/xori_dev) -
 [discord](https://discord.gg/f6y7DPrW) -
 [contact@xori.me](contact@xori.me)
+</div>
 
 ---
+
+#
